@@ -1,0 +1,32 @@
+<span class="mypage">Hello world!</span>
+<div class="container">
+    <div>
+        <!--<input kendo-date-picker/>-->
+        <!--<input kendo-numerictextbox k-up-arrow-text="textUp"/>-->
+        <!--<label>Select mode: <select kendo-dropdownlist  k-data-text-field="ProductName"-->
+        <!--k-data-value-field="ProductID"-->
+        <!--k-data-source="productsDataSource">-->
+        <!--<option value="row">Row</option>-->
+        <!--<option value="cell">Cell</option>-->
+        <!--<option value="multiple, row">Multiple, row</option>-->
+        <!--<option value="multiple, cell">Multiple, cell</option>-->
+        <!--</select></label>-->
+    </div>
+
+    <!--<div kendo-grid k-options="gridOptions" k-rebind="gridOptions.selectable"-->
+    <!--k-on-change="handleChange(data, dataItem, columns)"></div>-->
+    <div>
+        <div class="col-md-4" kendo-pivot-configurator k-height="580" k-data-source="dataSource" id="configurator"
+             k-filterable="true"></div>
+        <div class="col-md-4" kendo-pivot-grid k-options="pivotGridOptions" id="pivotgrid" ng-show="false"></div>
+        <div class="col-md-6" id="chart"></div>
+        <br/>
+    </div>
+    <div>
+
+        <!--<button ng-click="pie(filtername)" ng-init="count=0">-->
+            <!--Pie Chart-->
+        <!--</button>-->
+        <!--<div class="col-md-4" id="piechart"></div>-->
+    </div>
+</div>
